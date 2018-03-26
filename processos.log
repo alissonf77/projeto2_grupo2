@@ -1,0 +1,74 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.9  28580  4588 ?        Ss   13:02   0:00 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    13:02   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    13:02   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   13:02   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        S    13:02   0:00 [kworker/u2:0]
+root         7  0.0  0.0      0     0 ?        S    13:02   0:00 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    13:02   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    13:02   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S    13:02   0:00 [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S<   13:02   0:00 [khelper]
+root        12  0.0  0.0      0     0 ?        S    13:02   0:00 [kdevtmpfs]
+root        13  0.0  0.0      0     0 ?        S<   13:02   0:00 [netns]
+root        14  0.0  0.0      0     0 ?        S    13:02   0:00 [khungtaskd]
+root        15  0.0  0.0      0     0 ?        S<   13:02   0:00 [writeback]
+root        16  0.0  0.0      0     0 ?        SN   13:02   0:00 [ksmd]
+root        17  0.0  0.0      0     0 ?        S<   13:02   0:00 [crypto]
+root        18  0.0  0.0      0     0 ?        S<   13:02   0:00 [kintegrityd]
+root        19  0.0  0.0      0     0 ?        S<   13:02   0:00 [bioset]
+root        20  0.0  0.0      0     0 ?        S<   13:02   0:00 [kblockd]
+root        22  0.0  0.0      0     0 ?        S    13:02   0:00 [kswapd0]
+root        23  0.0  0.0      0     0 ?        S<   13:02   0:00 [vmstat]
+root        24  0.0  0.0      0     0 ?        S    13:02   0:00 [fsnotify_mark]
+root        30  0.0  0.0      0     0 ?        S<   13:02   0:00 [kthrotld]
+root        31  0.0  0.0      0     0 ?        S<   13:02   0:00 [ipv6_addrconf]
+root        32  0.0  0.0      0     0 ?        S<   13:02   0:00 [deferwq]
+root        66  0.0  0.0      0     0 ?        S<   13:02   0:00 [ata_sff]
+root        67  0.0  0.0      0     0 ?        S<   13:02   0:00 [kpsmoused]
+root        70  0.0  0.0      0     0 ?        S    13:02   0:00 [kworker/u2:2]
+root        71  0.0  0.0      0     0 ?        S    13:02   0:00 [scsi_eh_0]
+root        72  0.0  0.0      0     0 ?        S<   13:02   0:00 [scsi_tmf_0]
+root        75  0.0  0.0      0     0 ?        S<   13:02   0:00 [kworker/0:1H]
+root        94  0.0  0.0      0     0 ?        S    13:02   0:00 [jbd2/sda1-8]
+root        95  0.0  0.0      0     0 ?        S<   13:02   0:00 [ext4-rsv-conver]
+root       127  0.0  0.0      0     0 ?        S    13:02   0:00 [kauditd]
+root       131  0.0  0.6  28872  3132 ?        Ss   13:02   0:00 /lib/systemd/systemd-journald
+root       136  0.0  0.0      0     0 ?        S    13:02   0:00 [kworker/0:3]
+root       137  0.0  0.6  40816  3284 ?        Ss   13:02   0:00 /lib/systemd/systemd-udevd
+root       355  0.0  1.5  25404  7676 ?        Ss   13:02   0:00 dhclient -v -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases eth0
+root       398  0.0  0.5  37080  2760 ?        Ss   13:02   0:00 /sbin/rpcbind -w
+statd      407  0.0  0.5  37280  2908 ?        Ss   13:02   0:00 /sbin/rpc.statd
+root       413  0.0  0.0      0     0 ?        S<   13:02   0:00 [rpciod]
+root       415  0.0  0.0      0     0 ?        S<   13:02   0:00 [nfsiod]
+root       422  0.0  0.0  27568   228 ?        Ss   13:02   0:00 /usr/sbin/rpc.idmapd
+root       423  0.0  0.5  27504  2848 ?        Ss   13:02   0:00 /usr/sbin/cron -f
+bind       424  0.0  3.6 166852 18716 ?        Ssl  13:02   0:00 /usr/sbin/named -f -u bind
+root       425  0.0  1.0  55184  5364 ?        Ss   13:02   0:00 /usr/sbin/sshd -D
+daemon     426  0.0  0.3  19024  1772 ?        Ss   13:02   0:00 /usr/sbin/atd -f
+root       428  0.0  0.5  19856  2616 ?        Ss   13:02   0:00 /lib/systemd/systemd-logind
+message+   434  0.0  0.6  42124  3252 ?        Ss   13:02   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       490  0.0  0.6 262884  3500 ?        Ssl  13:02   0:00 /usr/sbin/rsyslogd -n
+root       493  0.0  0.3   4256  1664 ?        Ss   13:02   0:00 /usr/sbin/acpid
+root       527  0.0  0.5  63316  2952 tty1     Ss   13:02   0:00 /bin/login --        
+nagios     541  0.0  0.7  29780  3660 ?        SNs  13:02   0:00 /usr/sbin/nagios3 -d /etc/nagios3/nagios.cfg
+root       591  0.0  4.2 227576 21740 ?        Ss   13:02   0:00 /usr/sbin/apache2 -k start
+www-data   605  0.0  0.9 140712  4824 ?        S    13:02   0:00 /usr/sbin/apache2 -k start
+www-data   647  0.0  1.7 227820  8984 ?        S    13:02   0:00 /usr/sbin/apache2 -k start
+www-data   648  0.0  1.7 227648  8704 ?        S    13:02   0:00 /usr/sbin/apache2 -k start
+www-data   649  0.0  1.7 227648  8704 ?        S    13:02   0:00 /usr/sbin/apache2 -k start
+www-data   650  0.0  1.7 227820  8984 ?        S    13:02   0:00 /usr/sbin/apache2 -k start
+www-data   651  0.0  1.7 227648  8704 ?        S    13:02   0:00 /usr/sbin/apache2 -k start
+Debian-+   761  0.0  0.6  53252  3164 ?        Ss   13:02   0:00 /usr/sbin/exim4 -bd -q30m
+vagrant    870  0.0  0.9  23212  4916 tty1     S    13:08   0:00 -bash
+root       879  0.0  0.7  44752  3604 tty1     S    13:08   0:00 sudo bash
+root       882  0.0  0.7  21956  3804 tty1     S    13:08   0:00 bash
+root       888  0.0  0.7  44752  3624 tty1     S    13:08   0:00 sudo bash
+root       891  0.0  0.7  21960  3888 tty1     S+   13:08   0:00 bash
+www-data   902  0.0  1.7 227648  8704 ?        S    13:08   0:00 /usr/sbin/apache2 -k start
+root      1097  0.0  0.0      0     0 ?        S    13:18   0:00 [kworker/0:1]
+root      1397  0.0  0.5  42240  2592 ?        S    13:36   0:00 /usr/sbin/CRON -f
+root      1398  0.0  0.5  42500  2860 ?        S    13:36   0:00 /usr/sbin/CRON -f
+root      1400  0.0  0.1   4336   796 ?        Ss   13:36   0:00 /bin/sh -c ps -aux > /var/www/html/cgi-bin/processos.log
+root      1401  0.0  0.4  19100  2516 ?        R    13:36   0:00 ps -aux
+root      1402  0.0  1.0  53252  5092 ?        R    13:36   0:00 /usr/sbin/sendmail -i -FCronDaemon -B8BITMIME -oem root
